@@ -62,19 +62,35 @@ body{
 
 .euResumido p {
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-.redes {
-   align-items: center;
+.redes{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-#linkedin {
-    height: 100px;
-    width: 100px;
-    border-radius: 8px;
+.redes a{
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#linkedin:hover{
-    height: 110px;
-    width: 110px;
+.linkedin{
+    margin-left: 42%;
+    margin-right: 12px;
+    border-radius: 7px;
+    width: 80px;
+    height: 80px;
+
+}
+
+.github{
+    width: 95px;
+    height: 80px;
+
+}
+
+.contact h1{
+    padding-bottom: 14px;
 }
