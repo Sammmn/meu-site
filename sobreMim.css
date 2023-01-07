@@ -1,0 +1,80 @@
+:root{
+    --color-background: rgb(32, 32, 32);
+    --color-letters: rgb(163, 163, 163);
+    --color-header: rgb(24, 24, 24);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    text-align: justify;
+    font-family: monospace;
+    font-size: 18px;
+    background-color: var(--color-background);
+    color: var(--color-letters);
+}
+
+.container{
+    margin: 20px;
+    
+}
+
+.img_logoYT{
+    width: 45px;
+}
+
+.header , 
+.navigation_header , .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.header{
+    background-color: var(--color-header);
+    box-shadow: 1px 1px 4px rgb(27, 27, 27);
+    height: 75px;
+    justify-content:space-around;
+    padding: 0 0%;
+}
+
+.navigation_header{
+    gap: 3em;
+}
+
+.navigation_header a{
+    text-decoration: none;
+    color: rgb(93, 15, 167);
+}
+
+.navigation_header a:hover{
+    color: blueviolet;
+}
+
+.euResumido h1{
+    padding-top: 25px;
+}
+
+
+.euResumido p {
+    padding-top: 25px;
+}
+
+.redes {
+   align-items: center;
+}
+
+#linkedin {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+#linkedin:hover{
+    height: 110px;
+    width: 110px;
+}
